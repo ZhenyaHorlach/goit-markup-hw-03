@@ -381,17 +381,20 @@ body {
 .footer {
   background-color: var(--second-bg-color);
   padding: 60px 0;
+  text-decoration: none;
 }
 
 .logo-studio {
   display: block;
   margin: 0 0 20px 0;
   padding: 0;
+  text-decoration: none;
 }
 
 .logo-studio-footer {
   color: var(--second-accent-text-color);
   font-size: 26px;
+  text-decoration: none;
 }
 
 .address-map {
@@ -430,6 +433,7 @@ body {
 }
 
 .portfolio-list {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
