@@ -36,14 +36,17 @@ body {
   margin-left: auto;
 }
 
+а {
+  display: block;
+}
+
+.container-second {
+  padding-top: 94px;
+}
+
 /* Page header */
 .page-header {
   background-color: var(--primary-bg-color);
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
@@ -156,7 +159,6 @@ body {
   line-height: 1, 36;
   /* or 136% */
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -190,7 +192,7 @@ body {
 
 .meta-list .item {
   width: 250px;
-  padding: 94px 0;
+  /* padding: 94px 0; */
 }
 
 .meta-list .item:not(:last-child) {
@@ -261,7 +263,6 @@ body {
 /* team */
 .team {
   background-color: var(--accent-bg-color);
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -294,8 +295,11 @@ body {
 .team-fio {
   display: block;
   text-align: center;
-  padding-top: 30px;
   padding-bottom: 10px;
+}
+
+.team-info {
+  padding: 30px 0;
 }
 
 .team-work {
@@ -312,7 +316,6 @@ body {
 .team-worker {
   display: block;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .team-list .team-item:not(:last-child) {
@@ -413,12 +416,21 @@ body {
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
   display: block;
   margin-bottom: 9px;
+}
+
+.address-tel {
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  display: block;
 }
 
 .address-list {
@@ -471,8 +483,12 @@ body {
   padding: 0;
 }
 
+.card-info {
+  padding: 20px 0 20px 24px;
+}
+
 .card-name {
-  padding: 20px 0 4px 24px;
+  padding-bottom: 4px;
 }
 
 .portfolio-text {
@@ -485,17 +501,13 @@ body {
   margin: 0;
 }
 
-.card-type {
-  padding: 0 0 24px 24px;
-}
-
 .portfolio-buttons {
   list-style: none;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
 }
 
