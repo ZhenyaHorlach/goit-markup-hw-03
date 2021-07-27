@@ -147,22 +147,24 @@ body {
 
 /* hero */
 .hero {
-  background-color: #2f303a;
-  height: 600px;
+  background-color: var(--second-bg-color);
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-title {
   color: var(--second-accent-text-color);
-  font-size: 44px;
   font-weight: 900;
-  line-height: 1, 36;
+  font-size: 44px;
+  line-height: 60px;
   /* or 136% */
+
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  padding-top: 200px;
   padding-bottom: 30px;
 }
 
@@ -170,7 +172,7 @@ body {
 
 .section-meta {
   margin: 0;
-  padding: 0;
+  padding: 94px 0;
 }
 
 .section-container {
@@ -400,7 +402,7 @@ body {
   text-decoration: none;
 }
 
-.address-map {
+.map-link {
   color: var(--second-accent-text-color);
   font-size: 14px;
   line-height: 1, 71;
@@ -409,6 +411,9 @@ body {
   text-decoration: none;
   font-style: normal;
   display: block;
+}
+
+.map {
   margin-bottom: 9px;
 }
 
@@ -431,6 +436,8 @@ body {
   text-decoration: none;
   font-style: normal;
   display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .address-list {
@@ -453,10 +460,6 @@ body {
   margin-left: -30px;
   margin-top: -50px;
 }
-
-/* .portfolio-list .portfolio-block:not(:last-child) {
-  margin-right: 30px;
-} */
 
 .portfolio-block {
   width: 370px;
