@@ -36,7 +36,7 @@ body {
   margin-left: auto;
 }
 
-а {
+a {
   display: block;
 }
 
@@ -407,15 +407,14 @@ body {
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
-  letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
   display: block;
 }
-
+/* 
 .map {
   margin-bottom: 9px;
-}
+} */
 
 .address-link {
   font-size: 14px;
@@ -425,6 +424,9 @@ body {
   text-decoration: none;
   font-style: normal;
   display: block;
+}
+
+.element:not(:last-child) {
   margin-bottom: 9px;
 }
 
